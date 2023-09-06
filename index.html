@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator Clone</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="./scripts.js"></script>
+	</head>
+	<body>
+		<!-- start writing your code -->
+        <div class="cointainer">
+            <input type="text" class="box" name="display" id="result"/>
+            <input type="button" class="AC" value="AC" onclick="clearscreen()"/>
+            <input type="button" class="DEL" value="DEL" id="bt1" onclick="clearscreen()"/>
+            <input type="button" class="add" value="+" id="bt1" onclick="display1('+') "/>
+            <input type="button" class="one" value="1" id="bt1" onclick="display1('1') "/>
+            <input type="button" class="two" value="2" id="bt1" onclick="display1('2') "/>
+            <input type="button" class="three" value="3" id="bt1" onclick="display1('3') "/>
+            <input type="button" class="mul" value="*" id="bt1" onclick="display1('*') "/>
+            <input type="button" class="four" value="4" id="bt1" onclick="display1('4') "/>
+            <input type="button" class="five" value="5" id="bt1" onclick="display1('5') "/>
+            <input type="button" class="six" value="6" id="bt1" onclick="display1('6') "/>
+            <input type="button" class="divd" value="/" id="bt1" onclick="display1('/') "/>
+            <input type="button" class="seven" value="7" id="bt1" onclick="display1('7') "/>
+            <input type="button" class="eight" value="8" id="bt1" onclick="display1('8') "/>
+            <input type="button" class="nine" value="9" id="bt1" onclick="display1('9') "/>
+            <input type="button" class="sub" value="-" id="bt1" onclick="display1('-') "/> 
+            <input type="button" class="dot" value="." id="bt1" onclick="display1('.') "/>
+            <input type="button" class="zero" value="0" id="bt1" onclick="display1('0') "/>
+            <input type="button" class="equal" value="=" onclick="calculate() "/>
+
+        </div>
+	</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background: rgb(29,194,227);
+background: linear-gradient(90deg, rgba(29,194,227,1) 40%, rgba(0,255,144,1) 84%, rgba(104,255,108,1) 100%);
+padding-top: 10rem;
+padding-left: 40rem;
+
+}
+input[type=button]{
+    background-color: #bff3ee;
+    border: 1px solid white;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+}
+.cointainer{
+    /* border: 2px solid red; */
+    
+    height: 400px;
+    width:250px;
+    max-width: 250px;
+    max-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    grid-template-areas: 
+    'box box box box'
+    'ac ac del add1'
+    'one two three mul'
+    'four five six divd'
+    'seven eight nine sub1'
+    'dot zero equal equal'
+    ;
+    /* gap: 1px; */
+    /* background: white; */
+
+    
+    
+    
+}
+input[type=text]{
+    width: auto;
+    height: auto;
+    background: rgb(0, 54, 45);
+    font-size: 25px;
+    color: white;
+    
+    text-align: end;
+}
+
+}
+#bt1{
+    width: 80rem;
+    
+
+}
+.AC{
+    grid-area: ac;
+    
+}
+.DEL{
+    grid-area: del;
+   
+   
+}
+.add{
+    grid-area: add1;
+    
+}
+.one{
+    grid-area: one;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.mul{
+    grid-area: mul;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.nine{
+    grid-area: nine;
+}
+.zero{
+    grid-area: zero;
+}
+.divd{
+    grid-area: divd;
+}
+.sub{
+    grid-area: sub1;
+}
+.dot{
+    grid-area: dot;
+}
+.equal{
+    grid-area: equal;
+}
+.box{
+    grid-area: box;
+}
